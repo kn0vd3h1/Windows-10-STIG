@@ -1,5 +1,9 @@
 ---
 
+- name: "MAIN | PWN"
+  ansible.builtin.import_tasks:
+    file: pwn.yml
+
 - name: "MAIN | Display Banner"
   tags:
     - always
